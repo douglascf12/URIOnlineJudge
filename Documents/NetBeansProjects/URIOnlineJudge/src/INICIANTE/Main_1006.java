@@ -1,10 +1,10 @@
-package Iniciante;
+package INICIANTE;
 
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main_1005 {
+public class Main_1006 {
  
     public static void main(String[] args) throws IOException {
         Locale.setDefault(Locale.US);
@@ -12,9 +12,10 @@ public class Main_1005 {
         
         double A = input.nextDouble();
         double B = input.nextDouble();
-        double MEDIA = ((A * 3.5) + (B * 7.5)) / 11.0;
+        double C = input.nextDouble();
+        double MEDIA = ((A * 2.0) + (B * 3.0) + (C * 5.0)) / 10.0;
         
-        System.out.printf("MEDIA = %.5f%n", MEDIA);
+        System.out.printf("MEDIA = %.1f%n", MEDIA);
         input.close();
     }
  

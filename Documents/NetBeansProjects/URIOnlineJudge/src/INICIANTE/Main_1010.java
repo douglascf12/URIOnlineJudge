@@ -1,4 +1,4 @@
-package Iniciante;
+package INICIANTE;
 
 import java.util.Locale;
 import java.util.Scanner;

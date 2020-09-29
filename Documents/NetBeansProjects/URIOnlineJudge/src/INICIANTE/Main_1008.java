@@ -1,4 +1,4 @@
-package Iniciante;
+package INICIANTE;
 
 import java.io.IOException;
 import java.util.Locale;
